@@ -1,0 +1,47 @@
+body{
+    background-image: url(../img/bagus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.button{
+    padding: 17px 30px !important;
+}
+
+#buttonhover:hover{
+    color: #ffff; 
+}
+
+.jurusanbody{
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.card{
+    box-shadow: 2px 2px 13px 2px rgb(0,0,0,0.5);
+}
+
+#cardheight{
+    height: 300px;
+}
+
+#cardhover:hover{
+    transform: translateY(-15px);
+    box-shadow:  1px 1px 5px 2px rgba(139, 127, 127, 0.8);
+    transition: 0.6s;
+}
+
+#icon{
+    color: #ffff;
+}
+
+#icon:hover{
+    color: blue;
+}
+
+.grid{
+    display: grid !important;
+    grid-template-columns: 50% 45% !important;
+}

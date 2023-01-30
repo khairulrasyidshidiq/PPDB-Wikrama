@@ -15,43 +15,44 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-</head>
-<link rel="shortcut icon" href="{{ asset('/assets/img/Wikrama.png') }}" type="image/x-icon">
-<meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-00R8F6D0PD"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
+    <link rel="shortcut icon" href="{{ asset('/assets/img/Wikrama.png') }}" type="image/x-icon">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-00R8F6D0PD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-    gtag('config', 'G-00R8F6D0PD');
-</script>
-<title>Dashboard</title>
+        gtag('config', 'G-00R8F6D0PD');
+    </script>
 
-<!-- General CSS Files -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Dashboard</title>
 
-<!-- CSS Libraries -->
-{{-- <link rel="stylesheet" href="../../node_modules/bootstrap-social/bootstrap-social.css">
+    <!-- General CSS Files -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- CSS Libraries -->
+    {{-- <link rel="stylesheet" href="../../node_modules/bootstrap-social/bootstrap-social.css">
   <link rel="stylesheet" href="../../node_modules/summernote/dist/summernote-bs4.css"> --}}
-<link rel="stylesheet" type="text/css" href="{{ url('assets/admin/dataTables/css/datatables-bootstrap.min.css') }}" />
-<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css"
+        href="{{ url('assets/admin/dataTables/css/datatables-bootstrap.min.css') }}" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
 
-<!-- Template CSS -->
-<link rel="stylesheet" href="../../../assets/admin/css/style.css">
-<link rel="stylesheet" href="../../../assets/admin/css/components.css">
-<link rel="stylesheet" href="../../../assets/admin/css/progres.css">
-<link rel="stylesheet" href="../../../assets/admin/css/card.css">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="../../../assets/admin/css/style.css">
+    <link rel="stylesheet" href="../../../assets/admin/css/components.css">
+    <link rel="stylesheet" href="../../../assets/admin/css/progres.css">
+    <link rel="stylesheet" href="../../../assets/admin/css/card.css">
 
-<link href="" rel='shortcut icon'>
+    <link href="" rel='shortcut icon'>
 
 </head>
 
@@ -90,10 +91,10 @@
                     </div>
                     <ul class="sidebar-menu">
                         <li class="nav-item dropdown">
-                            <a href="/admin"><i class="fas fa-home"></i><span>Dashboard</span></a>
+                            <a href="/student"><i class="fas fa-home"></i><span>Dashboard</span></a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="/verifikasi"><i class="fas fa-money-bill"></i><span>Pembayaran</span></a>
+                            <a href="/pembayaran"><i class="fas fa-money-bill"></i><span>Pembayaran</span></a>
                         </li>
                     </ul>
                 </aside>
@@ -128,6 +129,7 @@
     {{-- <script src="{{ url('assets/admin/node_modules/owl.carousel/dist/owl.carousel.min.js')}}"></script> --}}
     {{-- <script src="{{ url('assets/admin/node_modules/summernote/dist/summernote-bs4.js')}}"></script>
   <script src="{{ url('assets/admin/node_modules/chocolat/dist/js/jquery.chocolat.min.js')}}"></script> --}}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     <!-- Template JS File -->
